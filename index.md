@@ -22,8 +22,9 @@ Syntax highlighted code block
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and 
-![Image](images/biophoto.jpg)
 ```
+
+![Image](https://github.com/Cfather/jimzhang.github.io/blob/master/images/biophoto.jpg)
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
