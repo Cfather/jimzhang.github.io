@@ -59,13 +59,15 @@
                 </article>
 
                 <article class="col-md-6 tm-article tm-bg-white-transparent">
-                    <header><h2>Arm Planning RTD</h2></header>
-                    <b>
-                        Comming Soon !</br>
-                    </b>
+                    <article class="tm-bg-white-transparent-page3">
+                        <header><h2>aRmTD</h2></header>
+                        <b>
+                            Guaranteed Collision-free Trajectory Planning for a Robotic Arm via Reachability-based Trajectory Design</br>
+                        </b>
+                    </article>
                     <a href="#tm-section-ArmRTD" class="btn btn-danger">Read More</a>
                 </article>
-</div>
+            </div>
         </section>
     </div>
 
@@ -74,7 +76,7 @@
         <section class="container tm-page-1-content">
             <div class="row1">
                 <div class="col-xl-6 col-md-8 ml-auto">
-                    <article class="tm-bg-white-transparent-page3">
+                    <article class="tm-bg-white-transparent-page3-wide">
                         <header><h5 class="tm-bg-white">GlobOptBernstein</h5></header>
                         <p class="tm-bg-white2">
                             Mobile robots typically use a receding-horizon strategy to move through the world, where they execute an old plan while computing a new plan to incorporate new sensor information.</br></br>
@@ -95,10 +97,16 @@
         <section class="container tm-page-1-content">
             <div class="row1">
                 <div class="col-xl-6 col-md-8 ml-auto">
-                    <article class="tm-bg-white-transparent-page3">
-                        <header><h5 class="tm-bg-white">Arm Planning RTD</h5></header>
+                    <article class="tm-bg-white-transparent-page3-wide">
+                        <header><h5 class="tm-bg-white">aRmTD</h5></header>
                         <p class="tm-bg-white2">
-                            Comming Soon !
+                            Robotics arms have been widely adopted for use in manufacturing in highly structured environments.
+                            However, when deploying robotic arms in unstructured environments in close proximity with humans and moving objects, we must guarantee that the robotic arms will move safely.
+                            Typically, motion planners for robotic arms operate in a two step process.
+                            First, planners will generate trajectories of the arm to achieve a task.
+                            Next, these trajectories are passed through a collision checker to ensure the volume of the arm moving through the robot's workspace is collision-free.
+                            In contrast, we propose a planner called aRmTD (Reachability-based Trajectory Design for an autonomous manipulator) which generates guaranteed collision-free trajectories without the use of a secondary collision checker.
+                            We show how aRmTD improves on existing planners by ensuring real-time operation, finding locally optimal solutions with a built-in fail-safe maneuver, and demonstrate aRmTD's utility on hardware (a Fetch Mobile Manipulator).
                         </p>
                     </article>
                 </div>

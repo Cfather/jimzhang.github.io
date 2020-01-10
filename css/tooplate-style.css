@@ -96,6 +96,11 @@ h5 {
     height: 100%;
 }
 
+.tm-bg-white-transparent-page3-wide {
+    width: 80vw;
+    height: 60vh;
+}
+
 .tm-page-5-content {
 	float: right;	
 }
