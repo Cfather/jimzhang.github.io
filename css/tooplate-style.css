@@ -83,12 +83,12 @@ h5 {
 }
 
 .tm-bg-white-transparent {
-	margin: 5px;
-	padding: 25px;
-	background-color: #ffffffc4;
-	max-width: 420px;
-	width: 100%;
-	margin: 20px;
+    margin: 5px;
+    padding: 40px;
+    background-color: #ffffffc4;
+    max-width: 400px;
+    width: 100%;
+    margin: 20px;
 }
 
 .tm-bg-white-transparent-page3 {
