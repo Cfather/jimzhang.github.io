@@ -32,8 +32,7 @@
             <div class="row">
                 <div class="col-md-6 ml-auto tm-text-white">
                     <header><h1>Hi, I'm Bohao</h1></header>
-                    <p>I'm a senior student in University of Michigan. My major is Computer Engineering and my research interest is Robotics. I'm currently focusing on the application of motion planning in the real world. Here's a <a href="https://drive.google.com/file/d/1eBvT_dq4MlExdKsSGvXpGs3T3XH8Gp_g/view?usp=sharing" style="color:#FF0000;">link</a> to my CV.</p>
-
+                    <p>I'm a senior student in University of Michigan. My major is Computer Engineering and my research interest is Robotics. I'm currently focusing on the application of motion planning in the real world. Here's a <a href="https://drive.google.com/file/d/1eBvT_dq4MlExdKsSGvXpGs3T3XH8Gp_g/view?usp=sharing" style="color:#0000ff;">link</a> to my CV.</p>
                     <a href="#tm-section-2" class="btn btn-danger">Explore...</a>
                 </div>
             </div>
@@ -48,19 +47,17 @@
                 <article class="col-md-6 tm-article tm-bg-white-transparent">
                     <header><h2>GlobOptBernstein</h2></header>
                     <b>
-                        Mobile robots typically use a receding-horizon strategy to move through the world, where they execute an old plan while computing a new plan to incorporate new sensor information.
-                        A plan should be dynamically feasible, meaning that it obeys constraints like the robot's dynamics and obstacle avoidance; it should have liveness, meaning the robot does not stop to plan so frequently that it cannot accomplish tasks; and it should be optimal, meaning that the robot tries to satisfy a user-specified cost function such as reaching a goal location as quickly as possible.
-                        Reachability-based Trajectory Design (RTD) is a planning method that can generate provably dynamically-feasible plans.
-                        However, RTD requires solving a nonlinear, non-convex optimization program at each planning iteration, and therefore cannot make optimality guarantees; furthermore, RTD can struggle with liveness because the robot brakes to a stop when the solver finds local minima or cannot find a feasible solution.
-                        This paper proposes RTD*, which is able to certify that the robot finds the globally optimal plan (if such a plan exists) at each planning iteration.
-                        This method is enabled by a novel Parallelized Constrained Bernstein Algorithm (PCBA), which is a branch-and-bound method for polynomial optimization.
-                        The contributions of this paper are: the implementation of PCBA; proofs of bounds on the time and memory usage of PCBA; a comparison of PCBA to state of the art solvers; and the demonstration of PCBA/RTD* on a mobile robot.
+                        Global Optimization 
+                        <iframe src="https://www.youtube.com/watch?v=YcH4WAzqPFY&feature=youtu.be" width="400" height="275" frameborder="0" allowfullscreen></iframe>
                     </b>
                 </article>
 
                 <article class="col-md-6 tm-article tm-bg-white-transparent">
                     <header><h2>Arm Planning RTD</h2></header>
-                    <b></b>
+                    <b>
+                        Arm Planning RTD
+
+                    </b>
                 </article>
             </div>
         </section>
@@ -80,9 +77,10 @@
             </div>
         </section>
     </div>
+    <!--
     <div id="tm-section-4" class="parallax-window" data-parallax="scroll" data-image-src="img/bg-img-04.jpg">
 
-        <!--
+
           <div class="row tm-page-4-content">
             <article  class="col-xs-6 col-md-4 tm-bg-white-transparent">
               <header><h3>Nunc sagittis</h3></header>
@@ -98,18 +96,18 @@
             </article>
           </div>
         </div>
-        -->
-        <!-- load JS files -->
-        <script src="js/jquery-1.11.3.min.js"></script>        <!-- jQuery (https://jquery.com/download/) -->
-        <script src="js/parallax.min.js"></script>
+    -->
+    <!-- load JS files -->
+    <script src="js/jquery-1.11.3.min.js"></script>        <!-- jQuery (https://jquery.com/download/) -->
+    <script src="js/parallax.min.js"></script>
 
-        <script type="text/javascript" src="slick/slick.min.js"></script>
-        <!-- Slick Carousel -->
-        <!-- Magnific Popup core JS file -->
-        <script src="js/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <!-- Slick Carousel -->
+    <!-- Magnific Popup core JS file -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
 
 
-        <script>
+    <script>
 
             function setCarousel() {
 
@@ -153,6 +151,6 @@
               });
             });
 
-        </script>
+    </script>
 </body>
         </html>
