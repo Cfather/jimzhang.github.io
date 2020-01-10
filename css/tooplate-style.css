@@ -1,11 +1,3 @@
-/*
-
-Template 2096 Individual
-
-http://www.tooplate.com/view/2096-individual
-
-*/
-
 body {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-size: 19px;
@@ -27,7 +19,7 @@ a:focus {
 	outline: none;
 }
 .parallax-window {
-	min-height: 100vh;
+	min-height: 200vh;
 	background: transparent;
 	display: flex;
 	align-items: center;
