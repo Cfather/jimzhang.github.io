@@ -1,15 +1,19 @@
 ---
-title: "Paper Title Number 1"
+title: "Reachable sets for safe, real-time manipulator trajectory design"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
+permalink: "https://arxiv.org/abs/2002.01591"
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+date: 2020
+venue: ' Robotics: Science and Systems'
+paperurl: 'https://arxiv.org/abs/2002.01591'
+citation: '@inproceedings{inproceedings,
+author = {Holmes, Patrick and Kousik, Shreyas and Zhang, Bohao and Raz, Daphna and Barbalata, Corina and Roberson, Matthew and Vasudevan, Ram},
+year = {2020},
+month = {07},
+pages = {},
+title = {Reachable Sets for Safe, Real-Time Manipulator Trajectory Design},
+doi = {10.15607/RSS.2020.XVI.100}
+}'
 ---
-This paper is about the number 1. The number 2 is left for future work.
 
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
-
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+[Download paper here](https://arxiv.org/abs/2002.01591)
