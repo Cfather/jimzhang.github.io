@@ -6,5 +6,3 @@ date: 2020-08-01
 venue: 'IEEE Transactions on Robotics'
 paperurl: 'https://arxiv.org/abs/2002.01591'
 ---
-
-[Download paper here](https://arxiv.org/abs/2002.01591)

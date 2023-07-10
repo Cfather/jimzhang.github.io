@@ -6,5 +6,3 @@ date: 2020-05-01
 venue: 'Robotics: Science and Systems'
 paperurl: 'https://arxiv.org/abs/2002.01591'
 ---
-
-[Download paper here](https://arxiv.org/abs/2002.01591)
