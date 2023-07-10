@@ -171,16 +171,13 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
+  outreach:
     output: true
     permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
   portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
     output: true
     permalink: /:collection/:path/
 
@@ -205,10 +202,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
+  # _outreach
   - scope:
       path: ""
-      type: teaching
+      type: outreach
     values:
       layout: single
       author_profile: true
