@@ -3,7 +3,7 @@ title: "Reachable sets for safe, real-time manipulator trajectory design"
 collection: publications
 permalink: "https://arxiv.org/abs/2002.01591"
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2020
+date: 2020-05-01
 venue: ' Robotics: Science and Systems'
 paperurl: 'https://arxiv.org/abs/2002.01591'
 citation: '@inproceedings{inproceedings,
