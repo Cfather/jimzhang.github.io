@@ -10,4 +10,13 @@ redirect_from:
 
 Hi. Welcome to my personal website!
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+Biography
+======
+I'm currently (about to be) a 4th-year Ph.D. candidate in Robotics at University of Michigan. I graduated from UM-SJTU Joint Institute where I received a BS degree in Electrical & Computer Engineering at Shanghai Jiaotong University and a BS degree in Computer Engineering at University of Michigan, Ann Arbor, in 2020. 
+I continue to pursue my PhD degree in Robotics at Umich, advised by [Prof. Ram Vasudevan](http://www.roahmlab.com/ram-personal). I passed my qualification exam and advanced to candidacy in 2022.
+Here is a link to my [CV](https://github.com/Cfather/jimzhang.github.io/blob/master/images/Bohao_Zhang_Academic_CV.pdf).
+
+Research Interest
+======
+My research focuses on the safe locomotion of bipedal robots. Bipedal robots are appealing since they are very similar to human beings. And as a result, they should be capable of doing the similar things that human beings can do.
+However, deploying biepdal robots widely still remains a great challenge due to the natural unstablity of bipedal walking. I would like to research on reliable and robust algorithms on bipedal locomotion and manipulation.
