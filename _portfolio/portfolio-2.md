@@ -1,7 +1,7 @@
 ---
 title: "Safe, Optimal, Real-time Trajectory Planning
 with a Parallel Constrained Bernstein Algorithm"
-excerpt: "<br/><img src='/images/pcba-demo.png'>"
+excerpt: "<img src='https://github.com/Cfather/jimzhang.github.io/blob/master/images/pcba-demo.png'>"
 collection: portfolio
 ---
 
