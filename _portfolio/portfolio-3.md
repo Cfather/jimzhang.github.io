@@ -1,6 +1,6 @@
 ---
 title: "Can’t Touch This: Real-Time, Safe Motion Planning and Control for Manipulators Under Uncertainty"
-excerpt: "<img src='/images/armour-demo.png'>"
+excerpt: "<img src='images/armour-demo.png'>"
 collection: portfolio
 ---
 
