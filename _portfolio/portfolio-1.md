@@ -1,6 +1,6 @@
 ---
 title: "Reachable Sets for Safe, Real-Time Manipulator Trajectory Design"
-excerpt: "<img src='../images/armtd-demo.png' width="1262" height="600">"
+excerpt: "<img src='../images/armtd-demo.png' width="1262" height="600"/>"
 collection: portfolio
 ---
 
