@@ -1,6 +1,6 @@
 ---
 title: "Serving Time: Real-Time, Safe Motion Planning and Control for Manipulation of Unsecured Objects"
-excerpt: "<img src='../images/waitr-demo.png'/>"
+excerpt: "<img src="../images/waitr-demo.png" width="500" height="362"/>"
 collection: portfolio
 ---
 
