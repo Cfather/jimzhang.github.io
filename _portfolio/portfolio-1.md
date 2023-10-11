@@ -1,17 +1,16 @@
 ---
-title: "Reachable Sets for Safe, Real-Time Manipulator Trajectory Design"
-excerpt: "<img src='../images/armtd-demo.png'/>"
+title: "Serving Time: Real-Time, Safe Motion Planning and Control for Manipulation of Unsecured Objects"
+excerpt: "<img src='../images/waitr-demo.png'/>"
 collection: portfolio
 ---
 
 Abstract:
-For robotic arms to operate in arbitrary environments, especially near people, it is critical to certify the safety of their motion planning algorithms.
-However, there is often a trade-off between safety and real-time performance; one can either carefully design safe plans, or rapidly generate potentially-unsafe plans.
-This work presents a receding-horizon, real-time trajectory planner with safety guarantees, called ARMTD (Autonomous Reachability-based Manipulator Trajectory Design).
-The method first computes (offline) a reachable set of parameterized trajectories for each joint of an arm.
-Each trajectory includes a fail-safe maneuver (braking to a stop).
-At runtime, in each receding-horizon planning iteration, ARMTD constructs a parameterized reachable set of the full arm in workspace and intersects it with obstacles to generate sub-differentiable, provably-conservative collision-avoidance constraints on the trajectory parameters.
-ARMTD then performs trajectory optimization over the parameters, subject to these constraints.
-On a 6 degree-of-freedom arm, ARMTD outperforms CHOMP in simulation, never crashes, and completes a variety of real-time planning tasks on hardware.
+As robotic systems transition from the industrial sector to our daily lives, a key challenge is achieving safe operation while in close proximity to humans.
+Certifiably safe motion planning and control methods are required to deal with model uncertainty and generate new motion plans in real-time to handle arbitrary environments.
+This paper proposes Wrench Analysis for Inertial Transport using Reachability (WAITR), a certifiably safe motion planning and control framework for serial link manipulators that manipulate unsecured objects in arbitrary environments.
+WAITR uses reachability analysis to construct over-approximations of the contact wrench applied to unsecured objects, which captures uncertainty in the manipulator dynamics, the object dynamics, and contact parameters such as the coefficient of friction.
+An optimization problem formulation is presented, which can be solved tractably in real-time in order to generate provably-safe motions for manipulating the unsecured objects.
+WAITR implements this in a framework which contains a receding horizon trajectory planner and a low-level robust controller which enable a robotic manipulator to safely operate in real-time to avoid obstacles while manipulating unsecured objects.
+The proposed method is demonstrated in simulation and on real hardware.
 
-The video demo of this paper can be found [here](https://www.youtube.com/watch?v=ySnux2owlAA&t=2s)
+The video demo of this paper can be found [here](https://youtu.be/-n6SwmylyX4?si=RdTsgVqxesKDfSJx)
