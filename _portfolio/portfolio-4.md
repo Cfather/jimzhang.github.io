@@ -1,17 +1,17 @@
 ---
-title: "Safe, Optimal, Real-time Trajectory Planning
-with a Parallel Constrained Bernstein Algorithm"
-excerpt: "<img src='../images/pcba-demo.png' width='361' height='400'/>"
+title: "Reachable Sets for Safe, Real-Time Manipulator Trajectory Design"
+excerpt: "<img src='../images/armtd-demo.png' width='714' height='400'/>"
 collection: portfolio
 ---
 
 Abstract:
-To move while using new sensor information, mobile robots use receding-horizon planning, executing a short plan while computing a new one.
-A plan should have dynamic feasibility (obeying a robot's dynamics and avoiding obstacles), liveness (planning frequently enough to complete tasks), and optimality (minimizing, e.g., distance to a goal).
-Reachability-based Trajectory Design (RTD) is a method to generate provably dynamically-feasible plans in real time by solving a polynomial optimization program (POP) in each planning iteration.
-However, RTD uses a derivative-based solver, which may converge to local minima that impact liveness and optimality.
-This paper proposes a Parallel Constrained Bernstein Algorithm (PCBA) branch-and-bound method to optimally solve RTD's POP at runtime; the resulting optimal planner is called RTD-star.
-The specific contributions of this paper are: the PCBA implementation; proofs of PCBA's bounded time and memory usage; a comparison of PCBA to state-of-the-art solvers; and a demonstration of PCBA/RTD-star on hardware.
-RTD* shows better optimality and liveness than RTD in dozens of environments with random obstacles.
+For robotic arms to operate in arbitrary environments, especially near people, it is critical to certify the safety of their motion planning algorithms.
+However, there is often a trade-off between safety and real-time performance; one can either carefully design safe plans, or rapidly generate potentially-unsafe plans.
+This work presents a receding-horizon, real-time trajectory planner with safety guarantees, called ARMTD (Autonomous Reachability-based Manipulator Trajectory Design).
+The method first computes (offline) a reachable set of parameterized trajectories for each joint of an arm.
+Each trajectory includes a fail-safe maneuver (braking to a stop).
+At runtime, in each receding-horizon planning iteration, ARMTD constructs a parameterized reachable set of the full arm in workspace and intersects it with obstacles to generate sub-differentiable, provably-conservative collision-avoidance constraints on the trajectory parameters.
+ARMTD then performs trajectory optimization over the parameters, subject to these constraints.
+On a 6 degree-of-freedom arm, ARMTD outperforms CHOMP in simulation, never crashes, and completes a variety of real-time planning tasks on hardware.
 
-The video demo of this paper can be found [here](https://www.youtube.com/watch?v=YcH4WAzqPFY)
+The video demo of this paper can be found [here](https://www.youtube.com/watch?v=ySnux2owlAA&t=2s)
